@@ -721,4 +721,29 @@ nav .nav-link {
     line-height: normal;
     letter-spacing: normal;
   }
+}
+
+.whatsapp-icon {
+  position: fixed;
+  right: 0px;
+  bottom: 100px;
+  z-index: 600;
+}
+
+.become-partner {
+  position: fixed;
+  right: 0px;
+  bottom: 20px;
+}
+.become-partner button {
+  background-color: #9B3717;
+  padding: 10px 20px;
+  border: none;
+}
+.become-partner button a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
 }/*# sourceMappingURL=style.css.map */
