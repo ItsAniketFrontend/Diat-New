@@ -18,6 +18,13 @@
   color: rgb(255, 255, 255);
   margin: 0px;
 }
+@media (max-width: 991px) {
+  .top-nav p {
+    letter-spacing: normal;
+    line-height: normal;
+    font-size: 10px;
+  }
+}
 
 nav .nav-link {
   font-family: "DM Sans", sans-serif !important;
@@ -25,7 +32,6 @@ nav .nav-link {
   font-weight: 500;
   line-height: 24.2px;
   letter-spacing: 0.05em;
-  text-align: center;
 }
 
 .certifications {
@@ -51,6 +57,13 @@ nav .nav-link {
   text-align: center;
   color: rgb(18, 35, 124);
 }
+@media (max-width: 991px) {
+  .distributor h2 {
+    font-size: 32px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+}
 .distributor p {
   font-family: "DM Sans", sans-serif;
   font-size: 19.7px;
@@ -59,6 +72,13 @@ nav .nav-link {
   letter-spacing: 0.04em;
   text-align: justified;
   color: #000;
+}
+@media (max-width: 991px) {
+  .distributor p {
+    font-size: 15px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
 }
 .distributor h5 {
   font-family: "DM Sans", sans-serif;
@@ -69,6 +89,13 @@ nav .nav-link {
   text-align: left;
   color: rgb(18, 35, 124);
 }
+@media (max-width: 991px) {
+  .distributor h5 {
+    font-size: 18px;
+    letter-spacing: normal;
+    line-height: normal;
+  }
+}
 .distributor h4 {
   font-family: "DM Sans", sans-serif;
   font-size: 22px;
@@ -77,6 +104,13 @@ nav .nav-link {
   letter-spacing: 0.04em;
   text-align: justified;
   color: rgb(18, 35, 124);
+}
+@media (max-width: 991px) {
+  .distributor h4 {
+    font-size: 20px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
 }
 .distributor h6 {
   font-family: "DM Sans", sans-serif;
@@ -87,6 +121,13 @@ nav .nav-link {
   text-align: justified;
   color: #000;
 }
+@media (max-width: 991px) {
+  .distributor h6 {
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+}
 .distributor h6 span {
   font-family: "DM Sans", sans-serif;
   font-size: 19.7px;
@@ -95,6 +136,13 @@ nav .nav-link {
   letter-spacing: 0.04em;
   text-align: justified;
   color: rgb(155, 55, 23);
+}
+@media (max-width: 991px) {
+  .distributor h6 span {
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
 }
 
 .about-us {
@@ -114,6 +162,13 @@ nav .nav-link {
   text-align: center;
   color: #fff;
 }
+@media (max-width: 991px) {
+  .about-us .box h3 {
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: 28px;
+  }
+}
 .about-us .box h6 {
   font-family: "DM Sans", sans-serif;
   font-size: 42px;
@@ -123,6 +178,13 @@ nav .nav-link {
   text-align: center;
   color: #fff;
 }
+@media (max-width: 991px) {
+  .about-us .box h6 {
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: 28px;
+  }
+}
 .about-us .box p {
   font-family: "DM Sans", sans-serif;
   font-size: 19.23px;
@@ -131,6 +193,13 @@ nav .nav-link {
   letter-spacing: 0.04em;
   text-align: center;
   color: #fff;
+}
+@media (max-width: 991px) {
+  .about-us .box p {
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: 16px;
+  }
 }
 
 .freshness {
@@ -150,6 +219,19 @@ nav .nav-link {
   color: #fff;
   margin-bottom: 28px;
 }
+@media (max-width: 991px) {
+  .freshness h2 {
+    font-size: 32px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+  }
+}
+@media (max-width: 991px) {
+  .freshness p {
+    text-align: center;
+  }
+}
 
 .grow {
   padding-top: 30px;
@@ -168,6 +250,13 @@ nav .nav-link {
   width: fit-content;
   padding: 3px 14px;
 }
+@media (max-width: 991px) {
+  .grow h2 {
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: 32px;
+  }
+}
 .grow h6 {
   font-family: "DM Sans", sans-serif;
   font-size: 42px;
@@ -176,6 +265,13 @@ nav .nav-link {
   letter-spacing: 0.04em;
   text-align: center;
   color: rgb(0, 0, 0);
+}
+@media (max-width: 991px) {
+  .grow h6 {
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: 28px;
+  }
 }
 .grow h3 {
   font-family: "DM Sans", sans-serif;
@@ -186,6 +282,13 @@ nav .nav-link {
   text-align: justified;
   color: rgb(155, 55, 23);
 }
+@media (max-width: 991px) {
+  .grow h3 {
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: 20px;
+  }
+}
 .grow h5 {
   font-family: "DM Sans", sans-serif;
   font-size: 19.7px;
@@ -194,6 +297,12 @@ nav .nav-link {
   letter-spacing: 0.04em;
   text-align: justified;
   color: rgb(0, 0, 0);
+}
+@media (max-width: 991px) {
+  .grow h5 {
+    line-height: normal;
+    letter-spacing: normal;
+  }
 }
 .grow h5 span {
   color: rgb(155, 55, 23);
@@ -212,6 +321,16 @@ nav .nav-link {
   text-align: left;
   color: #fff;
 }
+@media (max-width: 991px) {
+  .join-distributor h2 {
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: 28px;
+  }
+}
+.join-distributor h2 img {
+  width: 38px;
+}
 .join-distributor p {
   font-family: "DM Sans", sans-serif;
   font-size: 22px;
@@ -221,6 +340,13 @@ nav .nav-link {
   text-align: left;
   color: #fff;
   margin: 0px;
+}
+@media (max-width: 991px) {
+  .join-distributor p {
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: 20px;
+  }
 }
 .join-distributor button {
   background: rgb(255, 255, 255);
@@ -254,7 +380,14 @@ nav .nav-link {
   width: fit-content;
   padding: 4px 15px;
 }
-.home-products p {
+@media (max-width: 991px) {
+  .home-products h2 {
+    font-size: 32px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+}
+.home-products h6 {
   font-family: "DM Sans", sans-serif;
   font-size: 42px;
   font-weight: 400;
@@ -262,6 +395,147 @@ nav .nav-link {
   letter-spacing: 0.04em;
   text-align: center;
   color: #000;
+}
+@media (max-width: 991px) {
+  .home-products h6 {
+    font-size: 28px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+}
+.home-products p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 57.54px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #000;
+}
+@media (max-width: 991px) {
+  .home-products p {
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+}
+.home-products .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.home-products .gallery .image {
+  padding: 7px;
+  width: 25%;
+  cursor: pointer;
+}
+.home-products .gallery .image span {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+.home-products .gallery .image img {
+  width: 100%;
+  vertical-align: middle;
+  transition: all 0.3s ease;
+}
+.home-products .gallery .image:hover img {
+  transform: scale(1.1);
+}
+.home-products .preview-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.9);
+  background: #fff;
+  max-width: 600px;
+  width: 100%;
+  z-index: 5;
+  opacity: 0;
+  pointer-events: none;
+  border-radius: 3px;
+  padding: 0 5px 5px 5px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+.home-products .preview-box.show {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
+  transition: all 0.3s ease;
+}
+.home-products .preview-box .details {
+  display: flex;
+  align-items: center;
+  padding: 12px 15px 12px 10px;
+  justify-content: space-between;
+}
+.home-products .preview-box .details .title {
+  display: flex;
+  font-size: 18px;
+  font-weight: 400;
+}
+.home-products .details .title p {
+  margin: 0 5px;
+}
+.home-products .details .title p.current-img {
+  font-weight: 500;
+}
+.home-products .details .icon {
+  color: #000;
+  font-size: 20px;
+  cursor: pointer;
+}
+.home-products .preview-box .image-box {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+.home-products .image-box .slide {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #000;
+  font-size: 30px;
+  cursor: pointer;
+  height: 50px;
+  width: 60px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 3px;
+}
+.home-products .slide.prev {
+  left: 0px;
+  color: #fff;
+}
+.home-products .slide.next {
+  right: 0px;
+  color: #fff;
+}
+.home-products .image-box img {
+  width: 100%;
+  border-radius: 0 0 3px 3px;
+}
+.home-products .shadow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  display: none;
+  background: rgba(0, 0, 0, 0.45);
+}
+@media (max-width: 1000px) {
+  .home-products .gallery .image {
+    width: 50%;
+  }
+}
+@media (max-width: 600px) {
+  .home-products .gallery .image {
+    width: 100%;
+    padding: 4px;
+  }
 }
 
 .exhibition {
@@ -280,6 +554,13 @@ nav .nav-link {
   width: fit-content;
   background: rgb(18, 35, 124);
   padding: 3px 10px;
+}
+@media (max-width: 991px) {
+  .exhibition h2 {
+    font-size: 32px;
+    letter-spacing: normal;
+    line-height: normal;
+  }
 }
 
 .icon {
@@ -302,6 +583,13 @@ nav .nav-link {
   background: rgb(18, 35, 124);
   padding: 3px 18px;
 }
+@media (max-width: 991px) {
+  .certifications h2 {
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: 32px;
+  }
+}
 .certifications h6 {
   font-family: "Montserrat", sans-serif;
   font-size: 19.14px;
@@ -312,6 +600,13 @@ nav .nav-link {
   color: #000;
   background: rgb(255, 205, 108);
   padding: 10px 0px;
+}
+@media (max-width: 991px) {
+  .certifications h6 {
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
 }
 
 .why-diat {
@@ -327,6 +622,13 @@ nav .nav-link {
   color: #000;
   margin-bottom: 30px;
 }
+@media (max-width: 991px) {
+  .why-diat h2 {
+    font-size: 32px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+}
 .why-diat p {
   font-family: "DM Sans", sans-serif;
   font-size: 19.23px;
@@ -335,6 +637,13 @@ nav .nav-link {
   letter-spacing: 0.04em;
   text-align: left;
   color: #000;
+}
+@media (max-width: 991px) {
+  .why-diat p {
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
 }
 
 .contact-form {
@@ -377,6 +686,13 @@ nav .nav-link {
   color: #fff;
   margin-bottom: 18px;
 }
+@media (max-width: 991px) {
+  .contact-form .box h2 {
+    font-size: 28px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+}
 .contact-form .box button {
   background: rgb(255, 255, 255);
   color: rgb(18, 35, 124);
@@ -398,4 +714,11 @@ nav .nav-link {
   letter-spacing: 0.04em;
   text-align: center;
   color: #000;
+}
+@media (max-width: 991px) {
+  .foot p {
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -17,6 +17,11 @@
         text-align: center;
         color: rgba(255, 255, 255, 1);
         margin: 0px;
+        @media (max-width:991px) {
+            letter-spacing: normal;
+            line-height: normal;
+            font-size: 10px;
+        }
     }
 }
 
@@ -27,8 +32,6 @@ nav {
         font-weight: 500;
         line-height: 24.2px;
         letter-spacing: 0.05em;
-        text-align: center;
-
     }
 }
 
@@ -55,6 +58,11 @@ nav {
         letter-spacing: 0.04em;
         text-align: center;
         color: rgba(18, 35, 124, 1);
+        @media (max-width:991px) {
+            font-size: 32px;
+            line-height: normal;
+            letter-spacing: normal;
+        }
     }
 
     p {
@@ -65,6 +73,11 @@ nav {
         letter-spacing: 0.04em;
         text-align: justified;
         color: #000;
+        @media (max-width:991px) {
+            font-size: 15px;
+            line-height: normal;
+            letter-spacing: normal;
+        }
     }
 
     h5 {
@@ -75,6 +88,11 @@ nav {
         letter-spacing: 0.04em;
         text-align: left;
         color: rgba(18, 35, 124, 1);
+        @media (max-width:991px) {
+            font-size: 18px;
+            letter-spacing: normal;
+            line-height: normal;
+        }
     }
 
     h4 {
@@ -85,6 +103,11 @@ nav {
         letter-spacing: 0.04em;
         text-align: justified;
         color: rgba(18, 35, 124, 1);
+        @media (max-width:991px) {
+            font-size: 20px;
+            line-height: normal;
+            letter-spacing: normal;
+        }
     }
 
     h6 {
@@ -96,6 +119,11 @@ nav {
         text-align: justified;
         color: #000;
 
+        @media (max-width:991px) {
+            font-size: 16px;
+            line-height: normal;
+            letter-spacing: normal;
+        }
         span {
             font-family: "DM Sans", sans-serif;
             font-size: 19.7px;
@@ -104,6 +132,11 @@ nav {
             letter-spacing: 0.04em;
             text-align: justified;
             color: rgba(155, 55, 23, 1);
+            @media (max-width:991px) {
+                font-size: 16px;
+                line-height: normal;
+                letter-spacing: normal;
+            }
         }
     }
 }
@@ -124,6 +157,11 @@ nav {
             letter-spacing: 0.04em;
             text-align: center;
             color: #fff;
+            @media (max-width:991px) {
+                line-height: normal;
+                letter-spacing: normal;
+                font-size: 28px;
+            }
         }
 
         h6 {
@@ -134,6 +172,11 @@ nav {
             letter-spacing: 0.04em;
             text-align: center;
             color: #fff;
+            @media (max-width:991px) {
+                line-height: normal;
+                letter-spacing: normal;
+                font-size: 28px;
+            }
         }
 
         p {
@@ -144,6 +187,11 @@ nav {
             letter-spacing: 0.04em;
             text-align: center;
             color: #fff;
+            @media (max-width:991px) {
+                line-height: normal;
+                letter-spacing: normal;
+                font-size: 16px;
+            }
         }
     }
 }
@@ -163,6 +211,17 @@ nav {
         padding: 2px 20px;
         color: #fff;
         margin-bottom: 28px;
+        @media (max-width:991px) {
+            font-size: 32px;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+        }
+    }
+    p{
+        @media (max-width:991px) {
+            text-align: center;
+        }  
     }
 
 }
@@ -182,6 +241,11 @@ nav {
         background: rgba(10, 29, 130, 1);
         width: fit-content;
         padding: 3px 14px;
+        @media (max-width:991px) {
+            line-height: normal;
+            letter-spacing: normal;
+            font-size: 32px;
+        }
     }
 
     h6 {
@@ -192,6 +256,11 @@ nav {
         letter-spacing: 0.04em;
         text-align: center;
         color: rgba(0, 0, 0, 1);
+        @media (max-width:991px) {
+            line-height: normal;
+            letter-spacing: normal;
+            font-size: 28px;
+        }
     }
 
     h3 {
@@ -202,6 +271,11 @@ nav {
         letter-spacing: 0.04em;
         text-align: justified;
         color: rgba(155, 55, 23, 1);
+        @media (max-width:991px) {
+            line-height: normal;
+            letter-spacing: normal;
+            font-size: 20px;
+        }
     }
 
     h5 {
@@ -212,6 +286,11 @@ nav {
         letter-spacing: 0.04em;
         text-align: justified;
         color: rgba(0, 0, 0, 1);
+        @media (max-width:991px) {
+            line-height: normal;
+            letter-spacing: normal;
+
+        }
 
         span {
             color: rgba(155, 55, 23, 1);
@@ -231,6 +310,14 @@ nav {
         letter-spacing: 0.04em;
         text-align: left;
         color: #fff;
+        @media (max-width:991px) {
+            line-height: normal;
+            letter-spacing: normal;
+            font-size: 28px;
+        }
+        img{
+            width: 38px;
+        }
     }
 
     p {
@@ -242,6 +329,11 @@ nav {
         text-align: left;
         color: #fff;
         margin: 0px;
+        @media (max-width:991px) {
+            line-height: normal;
+            letter-spacing: normal;
+            font-size: 20px;
+        }
     }
 
     button {
@@ -275,9 +367,14 @@ nav {
         background: rgba(18, 35, 124, 1);
         width: fit-content;
         padding: 4px 15px;
+        @media (max-width:991px) {
+            font-size: 32px;
+            line-height: normal;
+            letter-spacing: normal;
+        }
     }
 
-    p {
+    h6{
         font-family: "DM Sans", sans-serif;
         font-size: 42px;
         font-weight: 400;
@@ -285,8 +382,146 @@ nav {
         letter-spacing: 0.04em;
         text-align: center;
         color: #000;
+        @media (max-width:991px) {
+            font-size: 28px;
+            line-height: normal;
+            letter-spacing: normal;
+        }
     }
+    p {
+        font-family: "DM Sans", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 57.54px;
+        letter-spacing: 0.04em;
+        text-align: center;
+        color: #000;
+        @media (max-width:991px) {
+            font-size: 16px;
+            line-height: normal;
+            letter-spacing: normal;
+        }
+    }
+    .gallery{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+      .gallery .image{
+        padding: 7px;
+        width: calc(100% / 4 );
+        cursor: pointer;
+      }
+      .gallery .image span{
+        display: flex;
+        width: 100%;
+        overflow: hidden;
+      }
+      .gallery .image img{
+        width: 100%;
+        vertical-align: middle;
+        transition: all 0.3s ease;
+      }
+      .gallery .image:hover img{
+        transform: scale(1.1);
+      }
+      .preview-box{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0.9);
+        background: #fff;
+        max-width: 600px;
+        width: 100%;
+        z-index: 5;
+        opacity: 0;
+        pointer-events: none;
+        border-radius: 3px;
+        padding: 0 5px 5px 5px;
+        box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+      }
+      .preview-box.show{
+        opacity: 1;
+        pointer-events: auto;
+        transform: translate(-50%, -50%) scale(1);
+        transition: all 0.3s ease;
+      }
+      .preview-box .details{
+        display: flex;
+        align-items: center;
+        padding: 12px 15px 12px 10px;
+        justify-content: space-between;
+      }
+      .preview-box .details .title{
+        display: flex;
+        font-size: 18px;
+        font-weight: 400;
+      }
+      .details .title p{
+        margin: 0 5px;
+      }
+      .details .title p.current-img{
+        font-weight: 500;
+      }
+      .details .icon{
+        color: #000;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      .preview-box .image-box{
+        display: flex;
+        width: 100%;
+        position: relative;
+      }
+      .image-box .slide{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #000;
+        font-size: 30px;
+        cursor: pointer;
+        height: 50px;
+        width: 60px;
+        line-height: 50px;
+        text-align: center;
+        border-radius: 3px;
+      }
+      .slide.prev{
+        left: 0px;
+        color: #fff;
+      }
+      .slide.next{
+        right: 0px;
+        color: #fff;
+      }
+      .image-box img{
+        width: 100%;
+        border-radius: 0 0 3px 3px;
+      }
+      .shadow{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 2;
+        display: none;
+        background: rgba(0,0,0,0.45);
+      }
+      @media(max-width: 1000px){
+        .gallery .image{
+          width: calc(100% / 2);
+        }
+      }
+      @media(max-width: 600px){
+        .gallery .image{
+          width: 100%;
+          padding: 4px;
+        }
+      }
 }
+
 
 .exhibition {
     padding: 60px 0px;
@@ -304,6 +539,11 @@ nav {
         width: fit-content;
         background: rgba(18, 35, 124, 1);
         padding: 3px 10px;
+        @media (max-width:991px) {
+            font-size: 32px;
+            letter-spacing: normal;
+            line-height: normal;
+        }
     }
 }
 
@@ -328,6 +568,11 @@ nav {
         color: #fff;
         background: rgba(18, 35, 124, 1);
         padding: 3px 18px;
+        @media (max-width:991px) {
+            line-height: normal;
+            letter-spacing: normal;
+            font-size: 32px;
+        }
     }
 
     h6 {
@@ -340,6 +585,11 @@ nav {
         color: #000;
         background: rgba(255, 205, 108, 1);
         padding: 10px 0px;
+        @media (max-width:991px) {
+            font-size: 16px;
+            line-height: normal;
+            letter-spacing: normal;
+        }
     }
 }
 
@@ -355,6 +605,11 @@ nav {
         text-align: left;
         color: #000;
         margin-bottom: 30px;
+        @media (max-width:991px) {
+            font-size: 32px;
+            line-height: normal;
+            letter-spacing: normal;
+        }
     }
 
     p {
@@ -365,6 +620,11 @@ nav {
         letter-spacing: 0.04em;
         text-align: left;
         color: #000;
+        @media (max-width:991px) {
+            font-size: 16px;
+            line-height: normal;
+            letter-spacing: normal;
+        }
     }
 }
 
@@ -409,6 +669,11 @@ nav {
             text-align: center;
             color: #fff;
             margin-bottom: 18px;
+            @media (max-width:991px) {
+                font-size: 28px;
+                line-height: normal;
+                letter-spacing: normal;
+            }
         }
         button{
             background: rgba(255, 255, 255, 1);
@@ -434,5 +699,10 @@ nav {
         letter-spacing: 0.04em;
         text-align: center;
         color: #000;
+        @media (max-width:991px) {
+            font-size: 18px;
+            line-height: normal;
+            letter-spacing: normal;
+        }
     }
 }
